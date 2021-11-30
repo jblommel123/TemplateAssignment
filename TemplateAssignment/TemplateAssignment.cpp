@@ -7,11 +7,11 @@
 #include <math.h>
 //template definition
 template <typename T>
-
+//
 T half(T number) {
     return (number / 2);
 }
-
+//explicit half function
 int half(int number) {
     double numberToDivide = static_cast<double>(number);
     double half = numberToDivide / 2;
@@ -22,7 +22,7 @@ int main()
     double a = 7.0;
     float b = 5.0f;
     int c = 3;
-
+    //call functions
     std::cout << half(a) << std::endl;
     std::cout << half(b) << std::endl;
     std::cout << half(c) << std::endl;
